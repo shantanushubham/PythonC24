@@ -64,6 +64,7 @@
 def area(length, breadth):
     result = length * breadth
     return result
+    raise ValueError("Length and breadth must be positive") # Self-Created Error
 
 
 output = area(10, 20) # calling the function or using the function
