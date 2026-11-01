@@ -1,7 +1,4 @@
 # You can use any name. Parent is not a reserved keyword.
-from typing_extensions import override
-
-
 class Parent:
 
     def __init__(self, name):
